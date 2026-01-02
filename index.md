@@ -5,9 +5,6 @@
 layout: single
 author_profile: true
 ---
-## Home
-## Intro and Experience
-
 Welcome to my Website! This is where I post about my work experience, technical personal projects, as well as my other passions.
 
 I'm a 3rd year Computing Science major with a minor in Mathematics. I'm primarily interested in Computer Vision, Image Processing/Analysis, as well as medical software applications.
