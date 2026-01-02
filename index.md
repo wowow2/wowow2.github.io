@@ -18,19 +18,19 @@ Outside school I enjoy reading, colouring, fun science facts, and learning about
 ## Experience
 <table style="width:100%; border:none; border-collapse: collapse;">
   <tr>
-    <td width="25%" style="vertical-align:top; padding:10px; border:none;">
+    <td width="25%" style="vertical-align:top; padding:0px; border:none;">
       <h3><a href="_pages/cv-internship.md">Computer Vision<br>Engineer Intern</a></h3>
       <p><strong>Dec 2025 – Present</strong></p>
     </td>
-    <td width="25%" style="vertical-align:top; padding:10px; border:none;">
+    <td width="25%" style="vertical-align:top; padding:0px; border:none;">
       <h3><a href="_pages/ml-research.md">ML<br>Research Assistant</a></h3>
       <p><strong>May 2025 – Present</strong></p>
     </td>
-    <td width="25%" style="vertical-align:top; padding:10px; border:none;">
+    <td width="25%" style="vertical-align:top; padding:0px; border:none;">
       <h3><a href="_pages/data-analysis.md">Data Analysis<br>Assistant</a></h3>
       <p><strong>Feb 2025 – Aug 2025</strong></p>
     </td>
-    <td width="25%" style="vertical-align:top; padding:10px; border:none;">
+    <td width="25%" style="vertical-align:top; padding:0px; border:none;">
       <h3><a href="_pages/teaching.md">Teaching<br>Assistant</a></h3>
       <p><strong>Sept 2025 – Dec 2025</strong></p>
     </td>
