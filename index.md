@@ -16,6 +16,27 @@ Previously I've worked as a **Data Analysis Assistant** for the department of Ge
 Outside school I enjoy reading, colouring, fun science facts, and learning about history!
 
 ## Experience
-| [Computer Vision Engineer Intern](_pages/cv-internship.md) | [Machine Learning Research Assistant](_pages/ml-research.md) | [Data Analysis Assistant](_pages/data-analysis.md) | [Teaching Assistant](_pages/data-analysis.md) |
-| :--- | :--- | :--- | :--- |
-| **Dec 2025 – Present** | **May 2025 – Present** | **Feb 2025 – Aug 2025** | **Sept 2025 – Dec 2025** |
+<table style="width:100%; border:none; border-collapse: collapse;">
+  <tr>
+    <td width="25%" style="vertical-align:top; padding:10px; border:none;">
+      <h3><a href="_pages/cv-internship.md">Computer Vision<br>Engineer Intern</a></h3>
+      <p><strong>Dec 2025 – Present</strong></p>
+      <p>Building physics-based calibration pipelines (INUC, Raw DNG).</p>
+    </td>
+    <td width="25%" style="vertical-align:top; padding:10px; border:none;">
+      <h3><a href="_pages/ml-research.md">Machine Learning<br>Research Assistant</a></h3>
+      <p><strong>May 2025 – Present</strong></p>
+      <p>Developing novel architectures for segmentation.</p>
+    </td>
+    <td width="25%" style="vertical-align:top; padding:10px; border:none;">
+      <h3><a href="_pages/data-analysis.md">Data Analysis<br>Assistant</a></h3>
+      <p><strong>Feb 2025 – Aug 2025</strong></p>
+      <p>Statistical modeling and 4PL curve fitting.</p>
+    </td>
+    <td width="25%" style="vertical-align:top; padding:10px; border:none;">
+      <h3><a href="_pages/teaching.md">Teaching<br>Assistant</a></h3>
+      <p><strong>Sept 2025 – Dec 2025</strong></p>
+      <p>Mentoring students in Python and algorithms.</p>
+    </td>
+  </tr>
+</table>
