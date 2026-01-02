@@ -37,6 +37,10 @@ Outside school I enjoy reading, colouring, fun science facts, and learning about
   </tr>
 </table>
 
+<style>
+h2 { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+</style>
+
 <h2> Software Projects </h2>
 <table style="width:100%; border:none; border-collapse: collapse;">
   <tr>
