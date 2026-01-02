@@ -10,4 +10,6 @@ Welcome to my Website! This is where I post about my work experience, technical 
 
 I'm a 3rd year Computing Science major with a minor in Mathematics. I'm primarily interested in Computer Vision, Image Processing/Analysis, as well as medical software applications.
 
-Currently I am a **Computer Vision Engineer Intern** at an at home medical testing startup, [ChromacareLabs](https://chromacarelabs.com/). As well as a **Machine Learning Research Assistant** at the [Servier Virtual Cardiac Centre](https://spaces.facsci.ualberta.ca/svcc/), which is a research labratory specializing in cardiac imaging, visualization, and analysis. 
+Currently I am a **Computer Vision Engineer Intern** at an at home medical testing startup,ChromacareLabs. As well as a **Machine Learning Research Assistant** at the [Servier Virtual Cardiac Centre](https://spaces.facsci.ualberta.ca/svcc/), which is a research labratory specializing in cardiac imaging, visualization, and analysis. 
+
+Previously I've worked as a Data Analysis Assistant for the department of Geriatric Medicine, and as a Teaching Assistant for CMPUT 201
