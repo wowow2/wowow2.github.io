@@ -36,3 +36,22 @@ Outside school I enjoy reading, colouring, fun science facts, and learning about
     </td>
   </tr>
 </table>
+
+## Software Projects
+<table style="width:100%; border:none; border-collapse: collapse;">
+  <tr>
+    <td width="25%" style="vertical-align:top; padding:0 10px 10px 10px; border:none;">
+      <h3 style="margin-top:0;"><a href="https://github.com/wowow2/3D-DICOM-image-visualizer">3D DICOM<br>Viewer</a></h3>
+    </td>
+    <td width="25%" style="vertical-align:top; padding:0 10px 10px 10px; border:none;">
+      <h3 style="margin-top:0;"><a href="https://github.com/wowow2/edmonton-property-predictor">City of Edmonton<br>Property Value Predictor</a></h3>
+    </td>
+    <td width="25%" style="vertical-align:top; padding:0 10px 10px 10px; border:none;">
+      <h3 style="margin-top:0;"><a href="https://github.com/wowow2/Barnes-Hut-n-body-simulation-in-C">Barnes-Hut<br>N-Body Simulation in C</a></h3>
+    </td>
+    <td width="25%" style="vertical-align:top; padding:0 10px 10px 10px; border:none;">
+      <h3 style="margin-top:0;"><a href="https://github.com/wowow2/hull-visualizer">Convex/Concave<br>Hull Visualizer</a></h3>
+    </td>
+  </tr>
+</table>
+
