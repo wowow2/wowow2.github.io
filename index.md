@@ -23,7 +23,7 @@ Outside school I enjoy reading, colouring, fun science facts, and learning about
       <p><strong>Dec 2025 – Present</strong></p>
     </td>
     <td width="25%" style="vertical-align:top; padding:10px; border:none;">
-      <h3><a href="_pages/ml-research.md">Machine Learning<br>Research Assistant</a></h3>
+      <h3><a href="_pages/ml-research.md">ML<br>Research Assistant</a></h3>
       <p><strong>May 2025 – Present</strong></p>
     </td>
     <td width="25%" style="vertical-align:top; padding:10px; border:none;">
