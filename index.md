@@ -19,7 +19,7 @@ Outside school I enjoy reading, colouring, fun science facts, and learning about
 <table style="width:100%; border:none; border-collapse: collapse;">
   <tr>
     <td width="25%" style="vertical-align:top; padding:0 10px 10px 10px; border:none;">
-      <h3 style="margin-top:0;"><a href="_pages/cv-internship.md">Computer Vision<br>Engineer Intern</a></h3>
+      <h3 style="margin-top:0;"><a href="_pages/Chromacare-Internship">Computer Vision<br>Engineer Intern</a></h3>
       <p><strong>Dec 2025 – Present</strong></p>
     </td>
     <td width="25%" style="vertical-align:top; padding:0 10px 10px 10px; border:none;">
