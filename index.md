@@ -5,6 +5,7 @@
 layout: single
 author_profile: true
 ---
+## Home
 ## Intro and Experience
 
 Welcome to my Website! This is where I post about my work experience, technical personal projects, as well as my other passions.
