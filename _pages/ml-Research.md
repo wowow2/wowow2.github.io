@@ -13,4 +13,4 @@ Publishing at an international conference as a first author is an acomplishment 
 
 [Click to see the paper!](/assets/IEEE_BIBE2025.pdf)
 
-Currently I am working on using the large dataset created by the model to develop algorithms to reduce slices used to compute volume. Our baseline method is integrating over all short axis slices, and our apporaches range from naively reducing every other slice to utilizing long axis slice diameters in a regression model (linear regression and more complex ML apporaches).
+Currently I am working on using the large dataset created by the model to develop algorithms to reduce slices used to compute volume. Our baseline method is integrating over all short axis slices, and our apporaches range from naively reducing every other slice to utilizing long axis slice diameters in a regression model (linear regression and more complex apporaches such as gradient boosting). 
