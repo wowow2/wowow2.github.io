@@ -9,4 +9,10 @@ In May 2025 I joined the [Servier Virtual Cardiac Center](https://spaces.facsci.
 
 The first phase of the project was developing a segmentation model to contour large amounts of right ventricular (RV) MRI data (short and long axis views). The industry standard for medical image segmentation is nnUNet, however, we wanted to experiment with training models which were already pretrained on other RV images. We benchmarked nnUNet, the pretrained model as is, the pretrained model trained only on our local data, and finally our proposed apporach of transfer learning (using the pretrained model as the base, then training further). Our proposed approach performed the best, and we published our findings in an international conference; IEEE BIBE 2025.
 
-[Click to Download the Paper!](_data/IEEE_BIBE2025 (3).pdf)
+[Click to download the paper](/assets/papers/ieee_bibe2025.pdf)
+
+<div style="margin-top:1rem;">
+  <iframe src="/assets/papers/ieee_bibe2025.pdf" width="100%" height="700" style="border:0;">
+    <p>Your browser doesn't support embedded PDFs. <a href="/assets/papers/ieee_bibe2025.pdf">Download the paper</a>.</p>
+  </iframe>
+</div>
