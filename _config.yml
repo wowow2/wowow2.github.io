@@ -68,6 +68,9 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/abbas-rizvi-6658a125b/"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/resume.pdf"
 
 defaults:
   # _posts
