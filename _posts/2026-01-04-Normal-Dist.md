@@ -4,6 +4,7 @@ date: 2024-01-05
 categories: [Mathematics, Calculus]
 tags: [Integration, Gaussian, Probability]
 use_math: true
+mathjax: true
 ---
 
 ### What is the Normal Distribution?
