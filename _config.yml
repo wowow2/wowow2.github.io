@@ -71,7 +71,7 @@ author:
       url: "https://www.linkedin.com/in/abbas-rizvi-6658a125b/"
     - label: "Resume"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/resume.pdf"
+      url: "/assets/Abbas___Resume.pdf"
 
 defaults:
   # _posts
