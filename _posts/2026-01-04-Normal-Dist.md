@@ -16,8 +16,11 @@ $$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$$
 It describes everything from height distribution to sensor noise. This is due to the **Central Limit Theorem**, which states that under certian conditions the sample distribution of the sample mean is approximately normal *no matter* what the original population distribution was. The conditions are:
 
 1) Random Sampling
+   
 2) Independent Samples
+   
 3) Samples come from identical distributions
+   
 4) Large Sample Size
 
 This is why the Gaussian distrubution is everywhere. You don't need to know the complex shape of the original data source; as long as you have enough samples, you can treat the averages as a Bell Curve. This unlocks the ability to use standard statistical tools on almost any dataset in the world.
