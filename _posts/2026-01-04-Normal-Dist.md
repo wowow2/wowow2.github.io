@@ -88,13 +88,15 @@ Note: The case of ($\mu = 0$, $\sigma = 1$) has a special term, the *Standard No
 #### 1. Stretching the Curve ($\sigma$)
 If we want to make the curve wider (higher variance), we scale the input $x$. In statistics, the convention is to use the exponent $-\frac{1}{2}(\frac{x}{\sigma})^2$.
 
+*Why do we do this?* Dividing by $\sigma$ acts as a horizontal scaling factor: it slows down the decay of the exponent, allowing the curve to stretch out further before hitting zero. The factor of 1/2 is added for algebraic convenience. Without it, the calculated variance would result in $\sigma^2/2$. By including the 1/2 in the exponent, we force the math to align perfectly so that the symbol $\sigma$ represents exactly one Standard Deviation ($\text{Variance} = \sigma^2$).
+
 If we let $u = \frac{x}{\sigma\sqrt{2}}$, then by the rules of calculus (u-substitution), $dx = \sigma\sqrt{2} du$.
 
 When we plug this into our integral, that extra factor pops out:
 
 $$\int_{-\infty}^{\infty} e^{-\frac{1}{2}(\frac{x}{\sigma})^2} dx = \sigma\sqrt{2} \underbrace{\int_{-\infty}^{\infty} e^{-u^2} du}_{\sqrt{\pi}} = \sigma\sqrt{2\pi}$$
 
-Suddenly, the area under the curve is no longer $\sqrt{\pi}$, but $\sigma\sqrt{2\pi}$.
+The area under the curve is no longer $\sqrt{\pi}$, but $\sigma\sqrt{2\pi}$.
 
 To force the area back to **1** (normalization), we must divide the whole function by this new amount. This is where the standardizing constant comes from:
 
