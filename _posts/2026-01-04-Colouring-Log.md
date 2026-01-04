@@ -1,6 +1,6 @@
 ---
-title: "My Coloring Log (Updated)"
-date: 2024-01-05
+title: "My Colouring Log (Updated)"
+date: 2024-01-04
 categories:
   - Personal
   - Art
@@ -10,11 +10,16 @@ tags:
 sticky: true  
 ---
 
-This is a running collection of my coloring pages from Penup. I update this post whenever I finish a new piece!
+This is a running collection of my colouring pages from Penup.
 
----
-![Rose](\assets\art\rose.png)
----
-![Geometric Pattern](\assets\art\mandela.png)
----
-![Light House](\assets\art\tower.png)
+<div style="text-align: center;">
+
+  <img src="/assets/art/rose.png" width="50%">
+  <br><br>
+
+  <img src="/assets/art/mandela.png" width="50%">
+  <br><br>
+
+  <img src="/assets/art/tower.png" width="50%">
+
+</div>
