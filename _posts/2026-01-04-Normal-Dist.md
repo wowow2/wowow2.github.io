@@ -25,7 +25,7 @@ It describes everything from height distribution to sensor noise. This is due to
 
 This is why the Gaussian distrubution is everywhere. You don't need to know the complex shape of the original data source; as long as you have enough samples, you can treat the averages as a Bell Curve. This unlocks the ability to use standard statistical tools on almost any dataset in the world.
 
-### The Problem: Normalization
+### The Problem: Integrating $$e^{-x^2}$$
 
 For any probability distribution to be valid, the total area under the curve must equal exactly **1** (representing 100% probability).
 
