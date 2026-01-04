@@ -1,5 +1,5 @@
 ---
-title: "My Coloring Log (Updated)"
+title: "My Colouring Log (Updated)"
 date: 2024-01-05
 categories:
   - Personal
