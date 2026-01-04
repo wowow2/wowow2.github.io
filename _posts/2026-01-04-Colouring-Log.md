@@ -15,6 +15,6 @@ This is a running collection of my coloring pages from Penup. I update this post
 ---
 ![Rose](\assets\art\rose.png)
 ---
-![Geometric Pattern](assets\art\mandela.png)
+![Geometric Pattern](\assets\art\mandela.png)
 ---
-![Light House](assets\art\tower.png)
+![Light House](\assets\art\tower.png)
