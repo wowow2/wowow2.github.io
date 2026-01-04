@@ -37,6 +37,8 @@ include:
 atom_feed:
   hide: true
 
+mathjax:
+  enable: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -99,3 +101,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
