@@ -29,4 +29,8 @@ This is a running collection of my colouring pages from Penup.
   <img src="/assets/art/crystal.png" width = "50%">
   <br><br>
 
+  <img src="/assets/art/rose2.png" width="50%">
+  <br><br>
+
+
 </div>
