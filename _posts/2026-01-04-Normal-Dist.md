@@ -118,7 +118,7 @@ from scipy import integrate
 
 # 1. Define the raw Gaussian function (e^-x^2)
 def gaussian_raw(x):
-return np.exp(-x**2)
+   return np.exp(-x**2)
 
 # 2. Integrate it from -infinity to +infinity
 result, error = integrate.quad(gaussian_raw, -np.inf, np.inf)
