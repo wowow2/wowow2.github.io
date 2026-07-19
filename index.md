@@ -14,5 +14,5 @@ and an **ML Research Assistant** at the
 where I published a first-author paper on cardiac MRI segmentation using transfer
 learning (IEEE BIBE 2025).
 
-Outside of school and work, I enjoy reading, colouring, and learning about history
+Outside of school and work, I enjoy reading, colouring, running, and learning about history
 and science.
