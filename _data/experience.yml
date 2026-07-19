@@ -1,0 +1,48 @@
+- title: Machine Learning Developer
+  org: ChromacareLabs
+  org_url: https://chromacarelabs.com/
+  dates: Dec 2025 – Present
+  permalink: /Chromacare-Internship/
+  summary: Built and deployed a computer vision deep learning pipeline for medical test kit analysis on AWS.
+  tags:
+    - Python
+    - PyTorch
+    - YOLO
+    - OpenCV
+    - AWS
+    - Docker
+    - NumPy
+    - PostgreSQL
+
+- title: ML Research Assistant
+  org: Servier Virtual Cardiac Centre
+  org_url: https://spaces.facsci.ualberta.ca/svcc/
+  dates: May 2025 – Present
+  permalink: /SVCC-Internship/
+  summary: Published first-author paper (IEEE BIBE 2025) on cardiac MRI segmentation using transfer learning.
+  tags:
+    - Python
+    - PyTorch
+    - NumPy
+    - Matplotlib
+    - Pandas
+    - Git
+    - HPC
+
+- title: Teaching Assistant
+  org: CMPUT 201 — University of Alberta
+  dates: Expected Sept 2025 – Dec 2025
+  permalink: /Teaching-Assistant/
+  summary: Guided students in labs on C programming, Git, and terminal usage; assisted with assignment creation and grading.
+  tags:
+    - C
+    - Git
+
+- title: Data Analysis Assistant
+  org: Faculty of Medicine & Dentistry — University of Alberta
+  dates: Feb 2025 – Aug 2025
+  permalink: /Data-Analysis-Internship/
+  summary: Co-authored a research article and poster on pain assessment in dementia, presented at the Canadian Conference on Dementia.
+  tags:
+    - SPSS
+    - Excel

@@ -1,0 +1,5 @@
+- title: Transfer Learning for Right Ventricular MRI Segmentation
+  venue: IEEE BIBE 2025
+  year: 2025
+  summary: Benchmarked deep learning models for cardiac MRI segmentation and proposed a transfer learning approach that outperformed nnUNet and baseline methods.
+  paper_url: /assets/IEEE_BIBE2025.pdf

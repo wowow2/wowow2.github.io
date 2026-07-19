@@ -1,0 +1,32 @@
+- title: 3D DICOM Cardiac MRI Visualizer
+  url: https://github.com/wowow2/3D-DICOM-image-visualizer
+  summary: C++/VTK/Qt tool that reconstructs DICOM volumes from 2D slices using position, spacing, and orientation metadata with interactive 3D time-series viz.
+  tags:
+    - C++
+    - VTK
+    - Qt
+
+- title: Barnes-Hut N-Body Simulation in C
+  url: https://github.com/wowow2/Barnes-Hut-n-body-simulation-in-C
+  summary: O(n log n) gravitational simulation using a recursive quadtree; parallelized Python pipeline renders thousands of frames for galaxy collision scenes.
+  tags:
+    - C
+    - Python
+    - Matplotlib
+    - multiprocessing
+
+- title: City of Edmonton Property Value Predictor
+  url: https://github.com/wowow2/edmonton-property-predictor
+  summary: XGBoost model (R² = 0.917, MAE = $21.5K) trained on 360k properties from open data and OpenStreetMap, deployed as a Flask app on Render.
+  tags:
+    - Python
+    - XGBoost
+    - Flask
+    - Render
+
+- title: Convex/Concave Hull Visualizer
+  url: https://github.com/wowow2/hull-visualizer
+  summary: Interactive visualization tool for computing and rendering convex and concave hulls from point sets.
+  tags:
+    - algorithm
+    - visualization
