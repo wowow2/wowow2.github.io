@@ -1,11 +1,13 @@
 :root {
-  --color-bg: #fafafa;
-  --color-fg: #1a1a1a;
-  --color-muted: #666;
-  --color-border: #e0e0e0;
-  --color-card-bg: #fff;
-  --color-accent: #2563eb;
-  --color-accent-hover: #1d4ed8;
+  --bg: #15161a;
+  --surface: #1e2026;
+  --surface-hover: #252830;
+  --fg: #e8e6e3;
+  --muted: #94908a;
+  --border: #2c2f36;
+  --accent: #d9823b;
+  --accent-contrast: #15161a;
+  --tag-border: #3a3d45;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --max-width: 54rem;
@@ -18,8 +20,8 @@
 html {
   font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
   line-height: 1.6;
-  color: var(--color-fg);
-  background: var(--color-bg);
+  color: var(--fg);
+  background: var(--bg);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
@@ -32,6 +34,13 @@ body { min-height: 100vh; }
   padding: 2rem 1.5rem 3rem;
 }
 
+a { color: var(--accent); text-decoration: none; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 /* Navigation */
 nav {
   display: flex;
@@ -39,16 +48,17 @@ nav {
   align-items: center;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--border);
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.75rem;
 }
 
 .site-title {
   font-weight: 700;
   font-size: 1.1rem;
+  letter-spacing: -0.01em;
   text-decoration: none;
-  color: var(--color-fg);
+  color: var(--fg);
 }
 
 .nav-links {
@@ -59,35 +69,44 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: var(--color-muted);
+  color: var(--muted);
   font-size: 0.95rem;
   transition: color 0.15s;
 }
 
 .nav-links a:hover,
-.nav-links a.active { color: var(--color-fg); }
+.nav-links a.active { color: var(--fg); }
 
-/* Footer */
-footer {
-  margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--color-border);
-}
-
-.social-links {
-  list-style: none;
+.nav-cta {
   display: flex;
-  gap: 1.5rem;
-  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
 }
 
-.social-links a {
-  text-decoration: none;
-  color: var(--color-muted);
-  font-size: 0.9rem;
+.nav-icon {
+  display: flex;
+  align-items: center;
+  color: var(--muted);
+  transition: color 0.15s;
 }
 
-.social-links a:hover { color: var(--color-fg); }
+.nav-icon:hover { color: var(--fg); }
+
+.nav-resume {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-contrast);
+  background: var(--accent);
+  padding: 0.35rem 0.8rem;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+
+.nav-resume:hover {
+  background: #e88e4a;
+}
 
 /* Page */
 .page { max-width: 42rem; }
@@ -95,6 +114,7 @@ footer {
 .page h1 {
   font-size: 1.8rem;
   font-weight: 700;
+  letter-spacing: -0.01em;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
@@ -102,6 +122,7 @@ footer {
 .page h2 {
   font-size: 1.25rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
@@ -109,22 +130,28 @@ footer {
 .page h3 {
   font-size: 1.1rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page p {
   margin-bottom: 1rem;
-  color: var(--color-fg);
+  color: var(--fg);
   max-width: 40rem;
 }
 
 .page a {
-  color: var(--color-accent);
+  color: var(--accent);
   text-decoration: none;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.15s;
 }
 
-.page a:hover { text-decoration: underline; }
+.page a:hover { background-size: 100% 1px; }
 
 .page-header {
   margin-bottom: 1.5rem;
@@ -133,24 +160,27 @@ footer {
 .page-org {
   font-weight: 600;
   font-size: 1rem;
-  color: var(--color-muted);
+  color: var(--muted);
 }
 
 .page-org a {
-  color: var(--color-muted);
-  text-decoration: underline;
-  text-decoration-color: var(--color-border);
-  text-underline-offset: 3px;
+  color: var(--muted);
+  background-image: linear-gradient(var(--muted), var(--muted));
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.15s;
 }
 
 .page-org a:hover {
-  color: var(--color-accent);
-  text-decoration-color: var(--color-accent);
+  color: var(--accent);
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 100% 1px;
 }
 
 .page-dates {
   font-size: 0.9rem;
-  color: var(--color-muted);
+  color: var(--muted);
   margin-bottom: 0.75rem;
 }
 
@@ -161,10 +191,19 @@ footer {
 
 .page-back a {
   text-decoration: none;
-  color: var(--color-muted);
+  color: var(--muted);
+  background-image: linear-gradient(var(--muted), var(--muted));
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.15s;
 }
 
-.page-back a:hover { color: var(--color-fg); }
+.page-back a:hover {
+  color: var(--fg);
+  background-image: linear-gradient(var(--fg), var(--fg));
+  background-size: 100% 1px;
+}
 
 /* Home intro */
 .home p {
@@ -174,17 +213,28 @@ footer {
   line-height: 1.7;
 }
 
+.home p a {
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.15s;
+}
+
+.home p a:hover { background-size: 100% 1px; }
+
 /* Cards section */
 .cards-section {
   margin-top: 3rem;
 }
 
 .cards-section h2 {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: clamp(1.15rem, 1rem + 0.5vw, 1.35rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
   margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--color-border);
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--accent);
 }
 
 .cards {
@@ -196,48 +246,51 @@ footer {
 .card {
   display: block;
   padding: 1.25rem;
-  background: var(--color-card-bg);
-  border: 1px solid var(--color-border);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
   text-decoration: none;
-  color: var(--color-fg);
-  transition: border-color 0.15s, box-shadow 0.15s;
+  color: var(--fg);
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
   position: relative;
 }
 
 .card:hover {
-  border-color: var(--color-accent);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-color: var(--accent);
+  background: var(--surface-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(217,130,59,0.08);
 }
 
 .card h3 {
   font-size: 1rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
   margin-bottom: 0.4rem;
-  color: var(--color-fg);
+  color: var(--fg);
 }
 
 .card-org {
   font-size: 0.85rem;
-  color: var(--color-muted);
+  color: var(--muted);
   margin-bottom: 0.15rem;
 }
 
 .card-dates {
   font-size: 0.8rem;
-  color: var(--color-muted);
+  color: var(--muted);
   margin-bottom: 0.5rem;
 }
 
 .card-meta {
   font-size: 0.8rem;
-  color: var(--color-muted);
+  color: var(--muted);
   margin-bottom: 0.5rem;
 }
 
 .card-summary {
   font-size: 0.85rem;
-  color: var(--color-muted);
+  color: var(--muted);
   line-height: 1.5;
   margin-bottom: 0.75rem;
 }
@@ -253,23 +306,30 @@ footer {
 .card-tags li {
   font-size: 0.7rem;
   font-family: var(--font-mono);
-  color: var(--color-muted);
-  background: var(--color-bg);
-  border: 1px solid var(--color-border);
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--tag-border);
   border-radius: 3px;
   padding: 0.125rem 0.4rem;
 }
 
 .card-arrow {
   font-size: 0.85rem;
-  color: var(--color-muted);
+  color: var(--muted);
   position: absolute;
   bottom: 1rem;
   right: 1.25rem;
+  transition: transform 0.15s;
 }
+
+.card:hover .card-arrow { transform: translateX(2px); }
 
 @media (max-width: 640px) {
   .wrapper { padding: 1.25rem 1rem 2rem; }
   .cards { grid-template-columns: 1fr; }
   .page h1 { font-size: 1.5rem; }
+  nav { gap: 0.5rem; }
+  .nav-cta { margin-left: 0; }
+  .nav-links { display: none; }
 }
