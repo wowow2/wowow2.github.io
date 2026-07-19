@@ -4,7 +4,7 @@ layout: experience
 permalink: /Teaching-Assistant/
 ---
 
-During the Fall 2025 semester I worked as a Teaching Assistant for CMPUT 201 — Practical
+During the Fall 2025 semester I worked as a Teaching Assistant for CMPUT 201: Practical
 Programming Methodology, a course that teaches C programming, version control with Git,
 and competence with the Linux terminal.
 

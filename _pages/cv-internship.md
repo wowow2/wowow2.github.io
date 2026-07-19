@@ -8,7 +8,7 @@ I work as a Machine Learning Developer at [ChromacareLabs](https://chromacarelab
 building computer vision features for a consumer healthcare app that analyzes at-home medical test kits.
 
 I designed and deployed a computer vision-based deep learning pipeline for regression
-tasks — from feature extraction and model architecture to training, evaluation, and production
+tasks, from feature extraction and model architecture to training, evaluation, and production
 deployment on AWS. The pipeline automatically captures frames from a camera feed, extracts the
 relevant region for analysis, and handles calibration, capture quality checks (framing, focus, motion),
 and illumination correction to work robustly across different phones.

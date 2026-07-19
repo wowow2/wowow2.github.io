@@ -10,7 +10,7 @@ Dr. Kumaradevan Punithakumar and Dr. Michelle Noga.
 
 I am first author on a paper published at IEEE BIBE 2025,
 where we benchmarked deep learning models (nnUNet, pretrained models, and our proposed transfer
-learning approach) for right ventricular MRI segmentation — our approach achieved the best results.
+learning approach) for right ventricular MRI segmentation; our approach achieved the best results.
 
 [Read the paper (PDF)](/assets/IEEE_BIBE2025.pdf)
 
