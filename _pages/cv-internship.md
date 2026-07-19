@@ -1,10 +1,21 @@
 ---
-title: "Computer Vision Engineer Intern"
-layout: single
+title: Computer Vision Engineer Intern
+layout: experience
 permalink: /Chromacare-Internship/
-author_profile: true
 ---
 
-I work as a Computer Vision Engineer Intern at [ChromacareLabs](https://chromacarelabs.com/).I’m building mobile computer-vision features for a consumer healthcare app that analyzes at-home medical test kits. My work focuses on an image-processing pipeline that automatically captures frames from a camera feed and extracts the relevant region for analysis. To make the pipeline robust across different phones I add calibration, automatic capture checks (framing, focus, motion), and illumination correction to handle ambient lighting and non-uniformity. I'm also responsible for analyzing the resulting intensity profile to determine the test results, such that the results are consistent across different phones and accurate.
+I work as a Machine Learning Developer at [ChromacareLabs](https://chromacarelabs.com/),
+building computer vision features for a consumer healthcare app that analyzes at-home medical test kits.
 
-I also generate and refine training data from camera captures, develop and iterate on segmentation models to locate the cassette and test window, and validate model performance across device types. I implement post-processing and quality-control logic so only good captures are analyzed, and collaborate with mobile engineers to integrate and optimize these components for iOS and Android. I'm excited to see this ship and to keep improving the product.
+I designed and deployed a computer vision-based deep learning pipeline for regression
+tasks — from feature extraction and model architecture to training, evaluation, and production
+deployment on AWS. The pipeline automatically captures frames from a camera feed, extracts the
+relevant region for analysis, and handles calibration, capture quality checks (framing, focus, motion),
+and illumination correction to work robustly across different phones.
+
+I engineered the data infrastructure (HDF5, PostgreSQL, AWS S3) for large-scale dataset management
+and built internal visualization tools that gave the team direct insight into model performance
+and data quality. I also generate and refine training data, develop and iterate on segmentation
+models to locate the cassette and test window, and implement post-processing and quality-control
+logic so only valid captures proceed to analysis. I collaborate with mobile engineers to integrate
+and optimize these components for iOS and Android.
