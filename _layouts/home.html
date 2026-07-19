@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<section class="home">
+  {{ content }}
+
+  {% if site.data.experience %}
+  <section class="cards-section">
+    <h2>Experience</h2>
+    <div class="cards">
+      {% for item in site.data.experience %}
+        <a href="{{ item.permalink }}" class="card">
+          <h3>{{ item.title }}</h3>
+          <p class="card-org">{{ item.org }}</p>
+          <p class="card-dates">{{ item.dates }}</p>
+          <p class="card-summary">{{ item.summary }}</p>
+          {% if item.tags %}
+            <ul class="card-tags">
+              {% for tag in item.tags %}
+                <li>{{ tag }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <span class="card-arrow">&rarr;</span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if site.data.projects %}
+  <section class="cards-section">
+    <h2>Software Projects</h2>
+    <div class="cards">
+      {% for item in site.data.projects %}
+        <a href="{{ item.url }}" class="card" target="_blank" rel="noopener">
+          <h3>{{ item.title }}</h3>
+          <p class="card-summary">{{ item.summary }}</p>
+          {% if item.tags %}
+            <ul class="card-tags">
+              {% for tag in item.tags %}
+                <li>{{ tag }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <span class="card-arrow">&nearr;</span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if site.data.publications %}
+  <section class="cards-section">
+    <h2>Publications</h2>
+    <div class="cards">
+      {% for pub in site.data.publications %}
+        <a href="{{ pub.paper_url | relative_url }}" class="card" target="_blank" rel="noopener">
+          <h3>{{ pub.title }}</h3>
+          <p class="card-meta">{{ pub.venue }}, {{ pub.year }}</p>
+          <p class="card-summary">{{ pub.summary }}</p>
+          <span class="card-arrow">&darr;&nbsp;PDF</span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</section>
