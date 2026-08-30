@@ -3,65 +3,65 @@ intro: "Introductory foundations in programming, algorithms, and discrete logic:
 emphasized:
   - code: CMPUT 301
     title: Intro to Software Engineering
-    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT301
+    url: https://apps.ualberta.ca/catalogue/course/cmput/301
     tags:
       - Java
       - Android
 
   - code: CMPUT 267
     title: Machine Learning I
-    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT267
+    url: https://apps.ualberta.ca/catalogue/course/cmput/267
     tags:
       - Python
       - PyTorch
 
   - code: CMPUT 365
     title: Reinforcement Learning
-    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT365
+    url: https://apps.ualberta.ca/catalogue/course/cmput/365
     tags:
       - Python
       - PyTorch
 
   - code: MATH 225
     title: Linear Algebra II
-    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/MATH225
+    url: https://apps.ualberta.ca/catalogue/course/math/225
     tags:
       - Math
 
   - code: MATH 214
     title: Calculus III
-    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/MATH214
+    url: https://apps.ualberta.ca/catalogue/course/math/214
     tags:
       - Math
 
   - code: MATH 341
     title: Geometry of Convex Sets
-    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/MATH341
+    url: https://apps.ualberta.ca/catalogue/course/math/341
     tags:
       - Math
 
   - code: STAT 252
     title: Intro to Applied Statistics II
-    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/STAT252
+    url: https://apps.ualberta.ca/catalogue/course/stat/252
     tags:
       - Statistics
 
   - code: STAT 265
     title: Probability and Statistics
-    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/STAT265
+    url: https://apps.ualberta.ca/catalogue/course/stat/265
     tags:
       - Statistics
 
   - code: CMPUT 229
     title: Computer Organization and Architecture I
-    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT229
+    url: https://apps.ualberta.ca/catalogue/course/cmput/229
     tags:
       - C
       - Assembly
 
   - code: CMPUT 379
     title: Operating System Concepts
-    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT379
+    url: https://apps.ualberta.ca/catalogue/course/cmput/379
     tags:
       - C
       - Systems
