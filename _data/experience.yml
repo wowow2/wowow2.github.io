@@ -3,7 +3,7 @@
   org_url: https://chromacarelabs.com/
   dates: Dec 2025 – Present
   permalink: /Chromacare-Internship/
-  summary: Built and deployed a computer vision deep learning pipeline for medical test kit analysis on AWS.
+  summary: Built comprehensive ML pipeline from CV-based feature extraction through DNN architecture design, training, and evaluation for regression tasks, for production deployment on AWS.
   tags:
     - Python
     - PyTorch
