@@ -50,6 +50,28 @@ layout: default
   </section>
   {% endif %}
 
+  {% if site.data.courses %}
+  <section class="cards-section">
+    <h2>Relevant Coursework</h2>
+    <p class="card-summary" style="margin-bottom: 1rem; color: var(--muted); max-width: 40rem;">{{ site.data.courses.intro }}</p>
+    <div class="cards">
+      {% for c in site.data.courses.emphasized %}
+        <div class="card">
+          <h3>{{ c.code }} - {{ c.title }}</h3>
+          <p class="card-summary">{{ c.summary }}</p>
+          {% if c.tags %}
+            <ul class="card-tags">
+              {% for tag in c.tags %}
+                <li>{{ tag }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   {% if site.data.publications %}
   <section class="cards-section">
     <h2>Publications</h2>

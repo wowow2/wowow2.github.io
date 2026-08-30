@@ -32,3 +32,23 @@
     - Arduino
     - Raspberry Pi
     - mpv
+
+- title: Skeddly
+  url: https://github.com/CMPUT301F25powder/Skeddly-powder
+  summary: Android scheduling app built in CMPUT 301 using Agile sprints, Firebase, and automated testing and CI
+  tags:
+    - Java
+    - Android
+    - Firebase
+    - Agile
+
+- title: Home Lab and Self-Hosted Infrastructure
+  url: https://home.abbasalirizvi.com
+  summary: Self-hosted Debian home server with Traefik and Homepage and WireGuard, running media with Jellyfin and photos with Immich and local AI with Ollama and Open WebUI across 28 containers with VPN and backups and HTTPS
+  tags:
+    - Docker
+    - Traefik
+    - Homelab
+    - Jellyfin
+    - Immich
+    - Ollama

@@ -1,0 +1,67 @@
+intro: "Introductory foundations in programming, algorithms, and discrete logic: CMPUT 174, 175, 201, 204, 272."
+
+emphasized:
+  - code: CMPUT 301
+    title: Intro to Software Engineering
+    summary: Agile sprints, Java and Android, Firebase and testing and CI, built Skeddly scheduling app
+    tags:
+      - Java
+      - Android
+
+  - code: CMPUT 267
+    title: Machine Learning I
+    summary: Supervised and unsupervised learning, model evaluation, and practical ML workflows
+    tags:
+      - Python
+      - PyTorch
+
+  - code: CMPUT 365
+    title: Reinforcement Learning
+    summary: MDPs, value and policy methods, and decision making under uncertainty
+    tags:
+      - Python
+      - PyTorch
+
+  - code: MATH 225
+    title: Linear Algebra II
+    summary: Vector spaces, eigentheory, and matrix decompositions with proofs
+    tags:
+      - Math
+
+  - code: MATH 214
+    title: Calculus III
+    summary: Multivariable calculus and vector analysis
+    tags:
+      - Math
+
+  - code: MATH 341
+    title: Geometry of Convex Sets
+    summary: Convex geometry, polytopes, and combinatorial structure
+    tags:
+      - Math
+
+  - code: STAT 252
+    title: Intro to Applied Statistics II
+    summary: Inference, regression, and ANOVA with applied data analysis
+    tags:
+      - Statistics
+
+  - code: STAT 265
+    title: Probability and Statistics
+    summary: Probability theory and statistical inference foundations
+    tags:
+      - Statistics
+
+  - code: CMPUT 229
+    title: Computer Organization and Architecture I
+    summary: Assembly, datapath, and memory hierarchy fundamentals
+    tags:
+      - C
+      - Assembly
+
+  - code: CMPUT 379
+    title: Operating System Concepts
+    summary: Processes, concurrency, and systems programming
+    tags:
+      - C
+      - Systems
