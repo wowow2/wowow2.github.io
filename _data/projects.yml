@@ -24,9 +24,11 @@
     - Flask
     - Render
 
-- title: Convex/Concave Hull Visualizer
-  url: https://github.com/wowow2/hull-visualizer
-  summary: Interactive visualization tool for computing and rendering convex and concave hulls from point sets.
+- title: Retro Internet Radio
+  url: https://github.com/wowow2/retro-internet-radio
+  summary: 3D-printed internet radio with Arduino front-panel and Pi daemon over USB serial, mpv IPC for instant switching, Radio-Browser API with fallback, and 1602 LCD in OpenSCAD enclosure.
   tags:
-    - algorithm
-    - visualization
+    - Python
+    - Arduino
+    - Raspberry Pi
+    - mpv

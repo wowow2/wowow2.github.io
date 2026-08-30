@@ -4,7 +4,7 @@ title: Home
 ---
 
 I'm a 3rd-year Computer Science student at the
-[University of Alberta](https://www.ualberta.ca/) (GPA 3.78, expected graduation 2027)
+[University of Alberta](https://www.ualberta.ca/) (GPA 3.67, expected graduation 2028)
 with a minor in Mathematics. My interests lie at the intersection of computer vision,
 machine learning, and medical imaging.
 
