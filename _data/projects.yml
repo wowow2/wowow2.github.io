@@ -26,7 +26,7 @@
 
 - title: Retro Internet Radio
   url: https://github.com/wowow2/retro-internet-radio
-  summary: 3D-printed internet radio — Arduino front-panel + Pi daemon over USB serial, mpv IPC for instant switching, Radio-Browser API with fallback, 1602 LCD in OpenSCAD enclosure.
+  summary: 3D-printed internet radio with Arduino front-panel and Pi daemon over USB serial, mpv IPC for instant switching, Radio-Browser API with fallback, and 1602 LCD in OpenSCAD enclosure.
   tags:
     - Python
     - Arduino
