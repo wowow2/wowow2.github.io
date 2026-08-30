@@ -3,65 +3,65 @@ intro: "Introductory foundations in programming, algorithms, and discrete logic:
 emphasized:
   - code: CMPUT 301
     title: Intro to Software Engineering
-    summary: Agile sprints, Java and Android, Firebase and testing and CI, built Skeddly scheduling app
+    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT301
     tags:
       - Java
       - Android
 
   - code: CMPUT 267
     title: Machine Learning I
-    summary: Supervised and unsupervised learning, model evaluation, and practical ML workflows
+    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT267
     tags:
       - Python
       - PyTorch
 
   - code: CMPUT 365
     title: Reinforcement Learning
-    summary: MDPs, value and policy methods, and decision making under uncertainty
+    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT365
     tags:
       - Python
       - PyTorch
 
   - code: MATH 225
     title: Linear Algebra II
-    summary: Vector spaces, eigentheory, and matrix decompositions with proofs
+    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/MATH225
     tags:
       - Math
 
   - code: MATH 214
     title: Calculus III
-    summary: Multivariable calculus and vector analysis
+    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/MATH214
     tags:
       - Math
 
   - code: MATH 341
     title: Geometry of Convex Sets
-    summary: Convex geometry, polytopes, and combinatorial structure
+    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/MATH341
     tags:
       - Math
 
   - code: STAT 252
     title: Intro to Applied Statistics II
-    summary: Inference, regression, and ANOVA with applied data analysis
+    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/STAT252
     tags:
       - Statistics
 
   - code: STAT 265
     title: Probability and Statistics
-    summary: Probability theory and statistical inference foundations
+    url: https://www.ualberta.ca/en/courses/mathematical-statistical-sciences/STAT265
     tags:
       - Statistics
 
   - code: CMPUT 229
     title: Computer Organization and Architecture I
-    summary: Assembly, datapath, and memory hierarchy fundamentals
+    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT229
     tags:
       - C
       - Assembly
 
   - code: CMPUT 379
     title: Operating System Concepts
-    summary: Processes, concurrency, and systems programming
+    url: https://www.ualberta.ca/en/courses/computer-science/CMPUT379
     tags:
       - C
       - Systems
