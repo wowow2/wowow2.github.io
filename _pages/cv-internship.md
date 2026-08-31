@@ -4,7 +4,7 @@ layout: experience
 permalink: /Chromacare-Internship/
 ---
 
-I work as a Machine Learning Developer at [ChromacareLabs](https://chromacarelabs.com/), building computer vision features for a consumer healthcare app that analyzes at-home medical test kits.
+I work as a Machine Learning Developer at [ChromacareLabs](https://chromacarelabs.com/), building machine learning and data features for a consumer healthcare app that analyzes at-home medical test kits.
 
 I architected a cloud-based deep learning regression pipeline engineered to extract and quantify 1D signal intensity profiles from diagnostic tests, spanning CV-based feature extraction through deep neural network architecture design, training, and evaluation for production deployment on AWS. The primary focus is ensuring highly consistent biomarker concentration predictions, mitigating test-to-test variance across physical cassettes of the same concentration via custom model architectures and calibration logic that stabilize predictions against artifacts, noise, and varying illumination.
 
